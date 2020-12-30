@@ -5,8 +5,8 @@ export default class Profile extends Component {
 
   render() {
     return (
-      <div>
-        <div className="card">
+      <div style={{marginTop: "10px"}}>
+        <div className="card" >
           <div className="card-image">
             <img className="activator" src={ImgProfile} alt="avatar" />
             <Link to="/CV/" className="btn-floating halfway-fab waves-effect waves-light red">

@@ -21,9 +21,13 @@
 }
 .card{
   width: 75%;
-  margin: 0 auto;
+ 
+  
 }
 .skill{
   width: 75%;
   margin: 0 auto;
+}
+.brand-logo{
+  margin-left: 15px;
 }

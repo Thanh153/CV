@@ -5,7 +5,7 @@ export default class Navbar extends Component {
     return (
       <>
         <nav>
-          <div className="container">
+          
             <div className="nav-wrapper">
               <Link to='/CV/' className='brand-logo'>My CV</Link>
               <Link to='/CV/' data-target="side-nav" className="sidenav-trigger">
@@ -78,7 +78,7 @@ export default class Navbar extends Component {
               </ul>
               
             </div>
-          </div>
+          
         </nav>
    </>     
     );
